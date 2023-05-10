@@ -22,7 +22,10 @@
         "s3gmwsbackstagestorage": {}
       },
       "function": {
-        "gwmsbackstage": {}
+        "gwmsbackstage": {
+          "deploymentBucketName": "amplify-amplify62912b2aa4274-staging-151716-deployment",
+          "s3Key": "amplify-builds/gwmsbackstage-6f41476e316452754372-build.zip"
+        }
       }
     }
   }

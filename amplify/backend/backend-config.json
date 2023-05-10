@@ -58,6 +58,24 @@
       "service": "Lambda"
     }
   },
+  "parameters": {
+    "AMPLIFY_function_gwmsbackstage_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gwmsbackstage"
+        }
+      ]
+    },
+    "AMPLIFY_function_gwmsbackstage_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "gwmsbackstage"
+        }
+      ]
+    }
+  },
   "storage": {
     "s3gmwsbackstagestorage": {
       "dependsOn": [],
